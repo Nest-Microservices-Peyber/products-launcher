@@ -1,3 +1,6 @@
 [submodule "client-gateway"]
 	path = client-gateway
 	url = https://github.com/Nest-Microservices-Peyber/client-gateway.git
+[submodule "order-microservices"]
+	path = order-microservices
+	url = https://github.com/Nest-Microservices-Peyber/orders-microservices.git
