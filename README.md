@@ -27,7 +27,11 @@
 ##Dev
 1. Clonar el repositorio
 2. Ejecutar un .env basado en el .env.template
-3. Ejecutar el comando: 
+3. Actualizar los submodulos
+```
+git submodule update --init --recursive
+```
+4. Ejecutar el comando: 
 ```
 docker compose up --build
 ```
