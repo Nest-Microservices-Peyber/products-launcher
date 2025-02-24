@@ -29,7 +29,7 @@
 2. Ejecutar un .env basado en el .env.template
 3. Ejecutar el comando: 
 ```
-docker compose up -build
+docker compose up --build
 ```
 
 ### Pasos para crear los Git Submodules
