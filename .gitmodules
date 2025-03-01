@@ -13,3 +13,6 @@
 [submodule "products-ms"]
 	path = products-ms
 	url = https://github.com/Nest-Microservices-Peyber/products-microservices.git
+[submodule "paiments-ms"]
+	path = paiments-ms
+	url = https://github.com/Nest-Microservices-Peyber/paiments-ms.git
