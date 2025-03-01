@@ -16,3 +16,6 @@
 [submodule "paiments-ms"]
 	path = paiments-ms
 	url = https://github.com/Nest-Microservices-Peyber/paiments-ms.git
+[submodule "payments-ms"]
+	path = payments-ms
+	url = https://github.com/Nest-Microservices-Peyber/payments-ms.git
