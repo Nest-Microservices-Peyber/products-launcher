@@ -71,3 +71,17 @@ services:
        - NATS_SERVERS=nats://nats-server:4222
     env_file:
       - ./payments-ms/.env
+
+#==================================
+# Auth Microservice
+#==================================
+  auth-ms:
+    container_name: auth-ms
+    build: ./auth-ms
+    volumes:
+      - ./auth-ms/src:/usr/src/app/src
+    command: yarn start:dev
+    environment:
+       - NATS_SERVERS=nats://nats-server:4222
+    env_file:
+      - ./auth-ms/.env
